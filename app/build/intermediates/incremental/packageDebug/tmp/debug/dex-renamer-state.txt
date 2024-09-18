@@ -1,4 +1,4 @@
-#Tue Sep 17 17:10:01 PDT 2024
+#Tue Sep 17 18:01:50 PDT 2024
 base.0=/Users/weijiedu/AndroidStudioProjects/NUMAD24Fa_WeijieDu/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/weijiedu/AndroidStudioProjects/NUMAD24Fa_WeijieDu/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/weijiedu/AndroidStudioProjects/NUMAD24Fa_WeijieDu/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
