@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,13 +25,24 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button button = findViewById(R.id.about_button);
+        Button about_button = findViewById(R.id.about_button);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        about_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Weijie Du, du.weij@northeastern.edu", Toast.LENGTH_LONG).show();
             }
         });
+
+        Button cal_button = findViewById(R.id.calc_button);
+
+        cal_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, quick_calc.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
